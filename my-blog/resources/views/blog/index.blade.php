@@ -9,8 +9,7 @@
                         <p>Enjoy reading our posts. Click on a post to read!</p>
                     </div>
                     <div class="col-4">
-                        <p>Create new Post</p>
-                        <a href="/blog/create/post" class="btn btn-primary btn-sm">Add Post</a>
+                        <a href="/blog/create/post" class="btn btn-primary btn-sm">Post Blog</a>
                     </div>
                 </div>                
                 @forelse($posts as $post)
