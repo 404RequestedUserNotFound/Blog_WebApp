@@ -65,7 +65,12 @@ class BlogPostController extends Controller
      */
     public function update(Request $request, BlogPost $blogPost)
     {
-        //
+        $blogPost->update([
+            'title' => $request->title,
+            'body' => $request->body
+        ]);
+
+        return redirect('blog/' . $blogPost->id);
     }
 
     /**
