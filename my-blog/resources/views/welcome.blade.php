@@ -126,6 +126,36 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.2s ease-in-out;
+            border: 2px solid black;
+
+        }
+
+        .btnLogLogin 
+        {
+            display: inline-block;
+            padding: 4px 10px;
+            font-size: 14px;
+            background-color: #166fe5;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.2s ease-in-out;
+            border: 2px solid black;
+
+        }
+
+        .btnLogRegister 
+        {
+            display: inline-block;
+            padding: 4px 10px;
+            font-size: 14px;
+            background-color: #01d449;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.2s ease-in-out;
+            border: 2px solid black;
+
         }
 
         .btnLog:hover 
@@ -158,8 +188,9 @@
 
             <div class="mt-7 text-left">
                 <p class="text-xl font-semibold mb-2">Want to dig deeper into Blogs?</p>
-                <a href="/blog" class="btnLog">Posted Blog</a>
-                <a href="/blog/create/post" class="btnLog">Post Blog</a>
+                <a href="/login" class="btnLogLogin">Login</a>
+                <a href="/register" class="btnLogRegister">Register</a>
+
 
 
             </div>
