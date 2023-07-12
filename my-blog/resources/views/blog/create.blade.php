@@ -7,8 +7,8 @@
             <div class="col-12 pt-2">
                 <a href="/blog" class="btn btn-outline-primary btn-sm">Go back</a>
                 <div class="border rounded mt-5 pl-4 pr-4 pt-4 pb-4">
-                    <h1 class="display-4">Create a New Post</h1>
-                    <p>Fill and submit this form to create a post</p>
+                    <h1 class="display-4">Create a New Blog Post</h1>
+                    
 
                     <hr>
 
